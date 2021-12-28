@@ -15,8 +15,8 @@ def activateKit():
     inp = inputtxt.get(1.0, "end-1c").split(" ")
     barcode, accession = inp[0], inp[1]
 
-    strEmail = 'brentju@stanford.edu'
-    pWord = 'Fzj3011825'
+    strEmail = #personal information
+    pWord = #personal information
 
     driver = webdriver.Chrome()
     driver.get('https://home.color.com/sign-in?next=%2Fcovid%2Factivation')
